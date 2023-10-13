@@ -9,7 +9,7 @@ mongoose
       })
       .catch((err) =>{
         console.log(err);
-      })
+      });
 const PORT = process.env.PORT || 8600;
 const app = express();
 app.listen(PORT,()=>{
